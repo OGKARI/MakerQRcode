@@ -1,0 +1,2 @@
+document.querySelector(".btn").addEventListener("click",(()=>function(){let e=document.getElementById("website").value;if(e){let t=document.getElementById("qrcode");t.innerHTML="",new QRCode(t,e),document.getElementById("qrcode-container").style.display="block"}else alert("Please enter a valid URL")}()));
+//# sourceMappingURL=bundle.js.map

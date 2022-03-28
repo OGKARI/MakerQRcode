@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	 	<title>Java Script</title>
+	 	<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+        <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+
+        <div class="form">
+          <h1>QR Code make</h1>
+          <form>
+            <input type="url" id="website" name="website" placeholder="https://webisora.com" required />
+            <button type="button" class="btn">
+              Generate QR Code
+            </button>
+          </form>
+        
+          <div id="qrcode-container">
+            <div id="qrcode" class="qrcode"></div>
+          
+          </div>
+        
+          <script type="text/javascript" src="script.js"></script>
+        </div>
+	</body>
+</html>
